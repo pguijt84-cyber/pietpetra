@@ -25,7 +25,7 @@
       "end": "2027-01-23",
       "lat": 8.04805,
       "lng": 98.9151,
-      "status": "Geboekt · betaling volgt",
+      "status": "Geboekt · betaald",
       "hotel": {
         "name": "Krabi Front Bay Resort",
         "stars": 4,
@@ -39,7 +39,7 @@
           "Ontbijt inbegrepen · eigen badkamer · balkon/terras · gratis wifi",
           "1 tweepersoonsbed of 2 eenpersoonsbedden; bedtype volgens beschikbaarheid",
           "Gratis annuleren vóór 13 januari 2027, volgens de boekingsbevestiging",
-          "Totaal circa € 141,05 voor 3 nachten, inclusief korting en belastingen. Betaling van USD 154,91 op 10 januari 2027; definitief eurobedrag hangt af van de bankkoers en eventuele wisselkosten."
+          "De drie nachten zijn betaald. Volgens de boeking komt het bedrag uit op circa € 141,05, inclusief korting en belastingen."
         ],
         "description": "Onze tweede stop ligt in Krabi Town, aan de rivier. Volgens het hotel zijn het centrum en Klong Jilad Pier ongeveer 5 minuten rijden; Ao Nang Beach ligt op circa 30 minuten rijden. Reistijden zijn indicatief.",
         "facilities": "Het resort heeft een zwembad en fitnessruimte op de derde verdieping, een halalrestaurant en een eigen pier. Boottochten per speedboot of longtailboot zijn via het hotel te regelen.",
@@ -186,8 +186,8 @@
       "currency": "EUR",
       "rate": 1,
       "category": "Hotels",
-      "status": "Nog te betalen",
-      "note": "USD 154,91 te betalen op 10 januari 2027. Circa € 141,05 volgens de boeking; bankkoers en wisselkosten kunnen afwijken."
+      "status": "Betaald",
+      "note": "Betaald voor drie nachten. Circa € 141,05 volgens de boeking."
     }
   ],
   "posts": [],
