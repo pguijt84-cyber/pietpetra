@@ -1,0 +1,201 @@
+{
+  "title": "Piet & Petra op reis",
+  "departure": "2027-01-17",
+  "route": [
+    {
+      "name": "Phuket Town",
+      "nights": 2,
+      "start": "2027-01-18",
+      "end": "2027-01-20",
+      "lat": 7.8833,
+      "lng": 98.3923,
+      "status": "Geboekt en betaald",
+      "hotel": {
+        "name": "Pearl Hotel Phuket",
+        "stars": 4,
+        "address": "42 Montri Road, Muang Phuket, Thailand 83000",
+        "phone": "+6676211044",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pearl%20Hotel%20Phuket%2042%20Montri%20Road"
+      }
+    },
+    {
+      "name": "Krabi Town",
+      "nights": 3,
+      "start": "2027-01-20",
+      "end": "2027-01-23",
+      "lat": 8.04805,
+      "lng": 98.9151,
+      "status": "Geboekt · betaling volgt",
+      "hotel": {
+        "name": "Krabi Front Bay Resort",
+        "stars": 4,
+        "address": "140/1 Moo 7, Tambon Saithai, Krabi Town, Krabi, Thailand",
+        "phone": "+6675626777",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Krabi%20Front%20Bay%20Resort",
+        "room": "Deluxe kamer met balkon · 39 m² · 2 volwassenen",
+        "summary": "Krabi Front Bay Resort · Deluxe met balkon · 3 nachten · Agoda",
+        "bookingDetails": [
+          "20–23 januari 2027 · 3 nachten · 1 kamer voor 2 volwassenen",
+          "Ontbijt inbegrepen · eigen badkamer · balkon/terras · gratis wifi",
+          "1 tweepersoonsbed of 2 eenpersoonsbedden; bedtype volgens beschikbaarheid",
+          "Gratis annuleren vóór 13 januari 2027, volgens de boekingsbevestiging",
+          "Totaal circa € 141,05 voor 3 nachten, inclusief korting en belastingen. Betaling van USD 154,91 op 10 januari 2027; definitief eurobedrag hangt af van de bankkoers en eventuele wisselkosten."
+        ],
+        "description": "Onze tweede stop ligt in Krabi Town, aan de rivier. Volgens het hotel zijn het centrum en Klong Jilad Pier ongeveer 5 minuten rijden; Ao Nang Beach ligt op circa 30 minuten rijden. Reistijden zijn indicatief.",
+        "facilities": "Het resort heeft een zwembad en fitnessruimte op de derde verdieping, een halalrestaurant en een eigen pier. Boottochten per speedboot of longtailboot zijn via het hotel te regelen.",
+        "photos": [
+          [
+            "assets/krabi-pool.webp",
+            "Zwembad van Krabi Front Bay Resort"
+          ],
+          [
+            "assets/krabi-deluxe.webp",
+            "Deluxe kamer · voorbeeldfoto van het hotel"
+          ]
+        ],
+        "sources": [
+          [
+            "https://www.krabifrontbayresort.com/",
+            "Officiële hotelwebsite"
+          ],
+          [
+            "https://www.krabifrontbayresort.com/facilities/",
+            "Faciliteiten en zwembad"
+          ],
+          [
+            "https://www.krabifrontbayresort.com/accommodation/",
+            "Kamers en kamerfoto’s"
+          ],
+          [
+            "https://www.krabifrontbayresort.com/contact/",
+            "Adres en contact"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Railay Beach",
+      "nights": 2,
+      "start": "2027-01-23",
+      "end": "2027-01-25",
+      "lat": 8.0117,
+      "lng": 98.8375,
+      "status": "Conceptplanning"
+    },
+    {
+      "name": "Koh Phi Phi",
+      "nights": 3,
+      "start": "2027-01-25",
+      "end": "2027-01-28",
+      "lat": 7.7407,
+      "lng": 98.7784,
+      "status": "Conceptplanning"
+    },
+    {
+      "name": "Koh Lanta",
+      "nights": 3,
+      "start": "2027-01-28",
+      "end": "2027-01-31",
+      "lat": 7.6134,
+      "lng": 99.0365,
+      "status": "Conceptplanning"
+    },
+    {
+      "name": "Koh Ngai",
+      "nights": 2,
+      "start": "2027-01-31",
+      "end": "2027-02-02",
+      "lat": 7.4167,
+      "lng": 99.2083,
+      "status": "Conceptplanning"
+    },
+    {
+      "name": "Koh Mook",
+      "nights": 3,
+      "start": "2027-02-02",
+      "end": "2027-02-05",
+      "lat": 7.3704,
+      "lng": 99.3031,
+      "status": "Conceptplanning"
+    },
+    {
+      "name": "Koh Kradan",
+      "nights": 2,
+      "start": "2027-02-05",
+      "end": "2027-02-07",
+      "lat": 7.3122,
+      "lng": 99.2542,
+      "status": "Conceptplanning"
+    },
+    {
+      "name": "Koh Jum",
+      "nights": 3,
+      "start": "2027-02-07",
+      "end": "2027-02-10",
+      "lat": 7.8282,
+      "lng": 98.9785,
+      "status": "Conceptplanning"
+    },
+    {
+      "name": "Tubkaek Beach",
+      "nights": 3,
+      "start": "2027-02-10",
+      "end": "2027-02-13",
+      "lat": 8.0878,
+      "lng": 98.7462,
+      "status": "Conceptplanning"
+    },
+    {
+      "name": "Klong Muang Beach",
+      "nights": 3,
+      "start": "2027-02-13",
+      "end": "2027-02-16",
+      "lat": 8.0495,
+      "lng": 98.7565,
+      "status": "Conceptplanning"
+    }
+  ],
+  "expenses": [
+    {
+      "name": "Vliegtickets · bedrag te verifiëren",
+      "amount": 1595.98,
+      "currency": "EUR",
+      "rate": 1,
+      "category": "Vliegtickets",
+      "status": "Betaald"
+    },
+    {
+      "name": "Stoelreserveringen",
+      "amount": 142.54,
+      "currency": "EUR",
+      "rate": 1,
+      "category": "Vliegtickets",
+      "status": "Betaald"
+    },
+    {
+      "name": "Pearl Hotel Phuket",
+      "amount": 103.32,
+      "currency": "USD",
+      "rate": 0.92,
+      "category": "Hotels",
+      "status": "Betaald"
+    },
+    {
+      "name": "Krabi Front Bay Resort · 20–23 januari · indicatie",
+      "amount": 141.05,
+      "currency": "EUR",
+      "rate": 1,
+      "category": "Hotels",
+      "status": "Nog te betalen",
+      "note": "USD 154,91 te betalen op 10 januari 2027. Circa € 141,05 volgens de boeking; bankkoers en wisselkosten kunnen afwijken."
+    }
+  ],
+  "posts": [],
+  "socials": [
+    {
+      "platform": "Instagram",
+      "handle": "@piet.Guijt",
+      "url": "https://www.instagram.com/piet.Guijt/"
+    }
+  ]
+}
