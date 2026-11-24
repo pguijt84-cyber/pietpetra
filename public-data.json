@@ -190,7 +190,22 @@
       "note": "Betaald voor drie nachten. Circa € 141,05 volgens de boeking."
     }
   ],
-  "posts": [],
+  "posts": [
+    {
+      "date": "2026-11-24",
+      "title": "Twee backpacks, één maand Thailand",
+      "body": "Een maand Thailand met z’n tweeën en allebei een backpack. We hebben ze alvast omgedaan voor de foto. De voorpret is begonnen!",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pietpetra.nl/assets/backpacks-thailand.jpg",
+          "caption": "Piet en Petra met hun backpacks. Op de foto staat: Een maand naar Thailand!",
+          "width": 960,
+          "height": 1280
+        }
+      ]
+    }
+  ],
   "socials": [
     {
       "platform": "Instagram",

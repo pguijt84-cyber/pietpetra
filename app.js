@@ -294,6 +294,11 @@ function renderFeaturedStory(post) {
   if (photo) {
     image.src = safeLink(photo.url);
     image.alt = photo.caption ?? post.title;
+    if (photo.width > 0 && photo.height > 0) {
+      image.width = photo.width;
+      image.height = photo.height;
+      image.classList.toggle('is-portrait', photo.height > photo.width);
+    }
   } else {
     image.hidden = true;
   }

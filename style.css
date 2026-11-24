@@ -697,3 +697,14 @@ body {
     display: none !important;
   }
 }
+
+.travel-feature > img.is-portrait,
+#personal-media img {
+  height: min(24rem, 105vw);
+  object-fit: contain;
+  background: var(--travel-selected);
+}
+
+#personal-media:not(:empty) {
+  margin-bottom: 1.25rem;
+}
