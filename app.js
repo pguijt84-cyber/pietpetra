@@ -110,7 +110,8 @@ function syncRouteMap() {
 }
 
 function setPage(name, { focus = false, scroll = true } = {}) {
-  const page = pages.find(section => section.id === name) ?? pages[0];
+  const section = name === 'handige-apps' ? document.getElementById(name) : null;
+  const page = section?.closest('.page') ?? pages.find(page => page.id === name) ?? pages[0];
   currentPage = page.id;
   if (currentPage !== 'reisroute') pendingStop = undefined;
   pages.forEach(section => { section.hidden = section !== page; });
@@ -120,13 +121,14 @@ function setPage(name, { focus = false, scroll = true } = {}) {
   });
   more.classList.toggle('current', Boolean(more.querySelector('[aria-current="page"]')));
   more.open = false;
-  if (scroll) window.scrollTo(0, 0);
+  syncRouteMap();
+  if (section) section.scrollIntoView();
+  else if (scroll) window.scrollTo(0, 0);
   if (focus) {
-    const heading = page.querySelector('h1');
+    const heading = section ? section.querySelector('h2') : page.querySelector('h1');
     heading.tabIndex = -1;
     heading.focus({ preventScroll: true });
   }
-  syncRouteMap();
   requestAnimationFrame(renderVisibleMap);
 }
 
@@ -141,7 +143,7 @@ document.addEventListener('click', event => {
   if (link && !event.defaultPrevented && event.button === 0 &&
       !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
     event.preventDefault();
-    navigate(link.dataset.page, link.dataset.stop === undefined);
+    navigate(link.hash.slice(1), link.dataset.stop === undefined);
     if (link.dataset.stop !== undefined) openStop(link.dataset.stop);
   } else if (more.open && !more.contains(event.target)) {
     more.open = false;

@@ -354,8 +354,45 @@ body {
   grid-template-columns: minmax(0, 1.12fr) minmax(0, 1fr);
 }
 
-.sticky-map {
+.route-sidebar {
+  display: grid;
+  gap: .85rem;
+  min-width: 0;
+}
+
+.route-sidebar .sticky-map {
+  position: static;
   grid-row: auto;
+}
+
+.route-apps {
+  scroll-margin-top: 1rem;
+}
+
+.route-app-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 1.15rem;
+}
+
+.route-app-list li {
+  border-top: 1px solid var(--line);
+  padding: .65rem 0;
+}
+
+.route-app-list p {
+  margin: .2rem 0 0;
+}
+
+.route-app-list a,
+.route-app-source a {
+  color: var(--travel-accent);
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+
+.route-app-list a {
+  font-weight: 750;
 }
 
 .mobile-map-toggle,
@@ -517,7 +554,7 @@ body {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .sticky-map {
+  .route-sidebar {
     grid-row: 1;
   }
 }
@@ -614,7 +651,7 @@ body {
     border-color: var(--line);
   }
 
-  .sticky-map {
+  .route-sidebar {
     grid-row: 2;
   }
 
