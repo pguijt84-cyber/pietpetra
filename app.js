@@ -110,7 +110,8 @@ function syncRouteMap() {
 }
 
 function setPage(name, { focus = false, scroll = true } = {}) {
-  const section = name === 'handige-apps' ? document.getElementById(name) : null;
+  const target = document.getElementById(name);
+  const section = target?.matches('.route-apps') ? target : null;
   const page = section?.closest('.page') ?? pages.find(page => page.id === name) ?? pages[0];
   currentPage = page.id;
   if (currentPage !== 'reisroute') pendingStop = undefined;
